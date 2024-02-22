@@ -19,10 +19,6 @@ import java.sql.PreparedStatement;
 import java.sql.*;
 
 
-
-
-
-
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {
     private String message;
@@ -32,7 +28,7 @@ public class HelloServlet extends HttpServlet {
 
     }
 
-    public void doGet(HttpServletRequest req, @NotNull HttpServletResponse resp) throws IOException {
+    public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         resp.setContentType("text/html");
 
         // Hello

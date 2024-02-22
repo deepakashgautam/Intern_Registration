@@ -52,7 +52,7 @@
     </style>
 
 </head>
-<form  action="/hello-servlet" method="get">
+<form name = "helloServlet" action="hello-servlet" method="post" >
 
     <table>
 
@@ -118,13 +118,13 @@
         </tr>
 
         <tr>
-            <td colspan="2"><button type='submit'  value="/Servlet1">SubMit</button></td>
+            <td colspan="2"><button type="submit">SubMit</button></td>
             <td ><input type="reset" value="reset"/></td>
         </tr>
 
     </table>
 </form>
-<a href="hello-servlet">Hello Servlet</a>
+
 
 </body>
 
